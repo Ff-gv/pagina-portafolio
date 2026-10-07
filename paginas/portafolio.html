@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="despliegue">
+        <header class="barra-lateral">
+            <div>
+                <nav class="nav-vertical">
+                    <img class=" rounded-circle" src="../assets/img/perfil.jpg" alt="foto-perfil">
+                    <a href="#inicio"><button class="btn btn-dark">Inicio</button></a>
+                    <a href="#sobre mi"><button class="btn btn-dark">Sobre mi</button></a>
+                    <a href="#proyectos"><button class="btn btn-dark">Proyectos </button></a>
+                    <a href="#caso"><button class="btn btn-dark">Caso de estudio</button></a>
+                    <a href="#certificaciones"><button class="btn btn-dark">Certificaciones</button></a>
+                    <a href="#contacto"><button class="btn btn-dark">Contacto</button></a>
+
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section id="inicio">
+                <h1 class="mt-5 titulo-inicio">Fernando Godoy</h1>
+                <hr>
+                <h2 class="mt-1 subtitulo-inicio">Desarrollo de software y análisis de datos</h2>
+                <hr>
+                <p class="descripcion-inicio">
+                    <i class="descripcion-inicio-icono fa-solid fa-hand-point-right"></i> <b>Creo aplicaciones en
+                        python,
+                        django y trabajo con bases de
+                        datos SQL.</b>
+                </p>
+            </section>
+            <section class="container sobre-mi" id="sobre mi">
+                <div class="card">
+                    <div class="card-header"> Sobre mi:</div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore nesciunt
+                        a veritatis similique atque nemo, architecto aliquam molestias deserunt alias eveniet laboriosam
+                        sapiente modi! Amet sed molestiae explicabo consequuntur doloremque, quisquam assumenda itaque,
+                        atque praesentium odit corporis odio est sequi eaque tenetur culpa pariatur eligendi quasi
+                        commodi magnam error iure minima. Nisi quos minus culpa quasi laudantium quam commodi?
+                    </p>
+                </div>
+            </section>
+            <section id="proyectos">
+                <h4 class="titulo-proyectos"><strong>Proyectos:</strong></h4>
+                <div class="container">
+                    <div class="row g-4 align-items-stretch justify-content-center">
+                        <div class="col-12 col-lg-8">
+                            <div id="proyectos-carousel" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <article class="card proyecto-card">
+                                            <img src="../assets/img/a.png" class="card-img-top"
+                                                alt="Vista previa del primer proyecto">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Sistema de inventario de libros</h3>
+                                                <p class="card-text">
+                                                    Programa que registra, edita y elimina libros, junto con sus
+                                                    atributos asociados.
+                                                </p>
+                                                <a class="btn btn-dark"
+                                                    href="https://github.com/Ff-gv/Proyecto_programa_organizacion"
+                                                    target="_blank" rel="noopener noreferrer">Link al proyecto</a>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <article class="card proyecto-card">
+                                            <img src="../assets/img/b.png" class="card-img-top"
+                                                alt="Vista previa del segundo proyecto">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Alke wallet</h3>
+                                                <p class="card-text">
+                                                    creacion de una pagina web fintech.
+                                                </p>
+                                                <a class="btn btn-dark" href="https://github.com/Ff-gv/Proyecto-wallet"
+                                                    target="_blank" rel="noopener noreferrer">Link al proyecto</a>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <article class="card proyecto-card">
+                                            <img src="../assets/img/c.png" class="card-img-top"
+                                                alt="Vista previa del segundo proyecto">
+                                            <div class="card-body">
+                                                <h3 class="card-title">Sistema de registro de clientes</h3>
+                                                <p class="card-text">
+                                                    Programa con interfaz visual, registra clientes y otros atributos
+                                                    asociados utilizando objetos y modelos.
+                                                </p>
+                                                <a class="btn btn-dark"
+                                                    href="https://github.com/Ff-gv/programa_clientes" target="_blank"
+                                                    rel="noopener noreferrer">Link al proyecto</a>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#proyectos-carousel"
+                                    data-bs-slide="prev" aria-label="Proyecto anterior">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#proyectos-carousel"
+                                    data-bs-slide="next" aria-label="Proyecto siguiente">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="caso">
+                <h3 class="caso-titulo"><strong>Caso de estudio:</strong></h3>
+                <div class="container">
+                    <div class="caso-header">
+                        <h3 class="mb-4">Aplicacion Django con SQL</h3>
+                    </div>
+                    <div class="caso-intro">
+                        <p>
+                            <b>Introduccion:</b>
+                            Creacion de una aplicacion que administra clientes, cuentas y transferencias, se implementa
+                            Mysql, el cual guarda registros y puede ser consultado
+                        </p>
+                        <p>
+                            <b>Desafio:</b>
+                            Crear y resolver las relaciones junto con la planeacion de los modelos, manteniendo la
+                            integridad de los datos
+                            y la limpieza de las migraciones creadas en django, junto con la union del backend con los
+                            templates.
+                        </p>
+                    </div>
+                    <div class="caso-body">
+                        <p><b>Propuesta:</b>
+                            Se desarrolló un backend sólido utilizando el ORM de Django para modelar 5 tablas
+                            interconectadas con 3 tipos distintos de relaciones;uno a uno, uno a muchos y muchos a
+                            muchos. Se estructuraron vistas lógicas que validan cada operación y se
+                            implementaron consultas SQL eficientes para comprobar y asegurar la correcta funcionalidad
+                            del flujo de datos. </p>
+                    </div>
+                    <div class="caso-aprendizaje">
+                        <h2>Aprendizajes alcanzados:</h2>
+                        <ul>
+                            <li>Modelado de bases de datos y creacion de relaciones entre tablas utilizando ORM en
+                                Django.</li>
+                            <li>Creacion de consultas mediante el ORM de Django.</li>
+                            <li>Modularizacion de funciones y escalabilidad</li>
+                            <li>Integracion de modelos a templates html y formularios</li>
+                        </ul>
+                    </div>
+                    <div class="caso-herramientas">
+                        <div class="card">
+                            <div class="card-header">
+                                Herramientas:
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Python</li>
+                                    <li>Django</li>
+                                    <li>Mysql</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <ul>
+                                    <li>MySQL Workbench</li>
+                                    <li>Visual Studio Code</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="caso-img">
+                        <img src="../assets/img/f.png" alt="Modelos de datos del proyecto Django">
+                        <img src="../assets/img/e.png" alt="Pruebas de consultas y transacciones en Django">
+                        <img src="../assets/img/d.png" alt="Interfaz del programa de registro de clientes">
+                    </div>
+
+                    <div class="card-body caso-impacto-body">
+                        <h2>Metricas de impacto:</h2>
+                        <ul>
+                            <li>5 Tablas relacionales conectadas entre si.</li>
+                            <li> 3 Tipos de relaciones: se implementan con exito las relaciones del ORM: uno a
+                                uno, uno a muchos y muchos a muchos.</li>
+                            <li>8 Consultas Avanzadas y Operaciones de Agregación: Pruebas superadas con éxito
+                                en
+                                consola y shell utilizando filtros complejos (exclude), agregaciones (annotate),
+                                sumas y promedios, además de consultas con lenguaje SQL.</li>
+                            <li>3 tablas con CRUD Completo: Implementacion de creación,
+                                lectura, actualización y eliminación integradas a las vistas y
+                                templates.(Cliente,
+                                Cuenta y Transacción).</li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="caso-porque">
+                        <h1>por qué se elegío este proyecto?</h1>
+                        <p>
+                            La necesidad de mostrar una aplicacion modular requiere flexibilidad, mi interes en base de
+                            datos es un factor ya que implementa mysql y la creacion de tablas. Este trabajo tiene
+                            diferentes estratos como el backend y el frontend lo cual encuentro que es adecuado como una
+                            demostracion. Personalmente me parece entretenido trabajar con base de datos y siento que es
+                            una ayuda referente a la experiencia que busco.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="certificaciones">
+                <h4 class="text-center mb-5"><strong>Certificaciones:</strong></h4>
+                <div class="certificaciones-grid">
+                    <article class="tarjeta-certificacion">
+                        <h3>Google Data Analytics</h3>
+                        <p>Institución: Google</p>
+                        <p>Año: 2025</p>
+                        <a href="https://coursera.org/verify/professional-cert/SCLXSWKPB5XP" target="_blank"
+                            rel="noopener noreferrer">
+                            Ver certificación
+                        </a>
+                    </article>
+                    <article class="tarjeta-certificacion">
+                        <h3>Supply Chain Analytics</h3>
+                        <p>Institución: Rutgers the State University of New Jersey</p>
+                        <p>Año: 2025</p>
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/LV4E8XU91VUV"
+                            target="_blank" rel="noopener noreferrer">
+                            Ver certificación
+                        </a>
+                    </article>
+                    <article class="tarjeta-certificacion">
+                        <h3> BI Essentials for Finance Analysts (Power BI Edition)</h3>
+                        <p>Institución: Corporate Finance Institute</p>
+                        <p>Año: 2025</p>
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/KXD5JVSCQXO0"
+                            target="_blank" rel="noopener noreferrer">
+                            Ver certificación
+                        </a>
+                    </article>
+                </div>
+            </section>
+            <section id="contacto">
+                <h2 class="mb-5"><strong>Contacto:</strong></h2>
+
+                <p>
+                    <i class="fa-solid fa-envelope"></i> <a href="mailto:franco.12321232@gmail.com">Escríbeme por
+                        correo:
+                        franco.12321232@gmail.com</a>
+                </p>
+
+                <p>
+                    <i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/56963309878" target="_blank"
+                        rel="noopener noreferrer">
+                        Contáctame por WhatsApp: +56963309878
+                    </a>
+                </p>
+            </section>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
