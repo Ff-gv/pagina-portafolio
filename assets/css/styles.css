@@ -134,6 +134,7 @@ border-color:rgb(252, 252, 252);
 max-height: 200vh;
 }
 .sobre-mi .card p{
+  margin-left: 5px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .sobre-mi .card .card-header{
